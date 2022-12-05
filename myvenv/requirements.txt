@@ -1,0 +1,8 @@
+#pip install -r requirements.txt
+flask
+requests
+selenium
+beautifulsoup4
+mysql-connector-python
+python-dateutil
+python-dotenv
