@@ -1,0 +1,67 @@
+Entorno virtual
+Definimos el nombre del entorno virtual en este caso "myenv". Puedes usar cualquier otro nombre, pero sólo utiliza minúsculas y no incluyas espacio.
+
+python3 -m venv myvenv
+
+Este código crea un directorio llamado myvenv (o cualquier nombre que hayas elegido) que contiene nuestro entorno virtual (básicamente un montón de archivos y carpetas). Donde trabajaremos
+
+Ejecutamos el entorno virtual
+source myvenv/bin/activate
+
+Instalamos dependencias
+pip install -r requirements.txt
+
+Fuente proyecto
+https://www.youtube.com/watch?v=3UYqMXNqZ48
+https://github.com/martinKindall/spotify_scraper
+Base de Datos en MariaDB
+
+
+Web Scraper: recolector de datos automátizado
+Libreria selenium
+https://selenium-python.readthedocs.io/
+
+URL Spotify
+https://charts.spotify.com/charts/overview/global
+https://podcastcharts.byspotify.com/es
+
+Descargar datos en CSV
+Weekly: top songs, top artist, top albums
+Daily top artist
+Daily viral songs
+
+
+ChromeDriver
+ChromeDriver es un servidor independiente que implementa el protocolo de cable de WebDriver para Chromium. Ha sido desarrollado por miembros de los equipos de Chromium y WebDriver
+https://chromedriver.chromium.org/downloads
+Es un programa instalado en el ordenador desde el cual llamo desde python y por eso tengo que poner su ruta para ejecutarlo
+Debe ser compatible con la versión que tenemos de Google Chrome chrome://settings/help  Versión 107.0.5304.121 (Build oficial) unknown (64 bits)
+
+
+Beautifulsoup
+Parseador de contenido de código fuente de páginas web
+https://beautiful-soup-4.readthedocs.io/en/latest/
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
+
+
+mysql-connector-python
+Conector para guardar en la base de datos
+
+
+python-dateutil
+Libreria para parchear fechas
+
+python-dotenv
+Libreria para usar las variables de entorno donde se guardarán las claves neccesarias para hacer funcioanr el programa
+Estarán guardians en el ordenador
+
+
+.env.default
+son los parametros que se conectan a la base de datos
+
+
+
+DataGrip visor de BBDD como MySql
+Tienen licencia estudiante
+https://www.jetbrains.com/es-es/datagrip/
+
